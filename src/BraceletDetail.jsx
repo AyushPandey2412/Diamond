@@ -1720,19 +1720,19 @@ const BraceletDetail = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* Breadcrumb */}
         <div className="text-sm color-primary-medium mb-6 font-yorkten">
-          <span 
-            className="hover:underline cursor-pointer"
-            onClick={() => window.location.hash = '#/'}
+          <a 
+            href="/" 
+            className="hover:opacity-80 transition-opacity cursor-pointer hover:underline"
           >
             Home
-          </span>
+          </a>
           <span className="mx-2">/</span>
-          <span 
-            className="hover:underline cursor-pointer"
-            onClick={() => window.location.hash = '#/bracelets'}
+          <a 
+            href="/bracelets" 
+            className="hover:opacity-80 transition-opacity cursor-pointer hover:underline"
           >
             Bracelets
-          </span>
+          </a>
           <span className="mx-2">/</span>
           <span>Tennis</span>
           <span className="mx-2">/</span>

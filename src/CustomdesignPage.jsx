@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 
 const CustomdesignPage = () => {
   const [currentStep, setCurrentStep] = useState(1);
@@ -68,7 +69,9 @@ const CustomdesignPage = () => {
   };
 
   return (
+    
     <div className="w-full min-h-screen bg-stone-50 py-8 px-4 sm:px-6 lg:px-8">
+<Header></Header>
       <style jsx>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
         
