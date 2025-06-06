@@ -1264,7 +1264,7 @@ const FeaturedCollection = () => {
         {/* Call to Action */}
         <div className="text-center mt-12 sm:mt-16">
           <a 
-            href="/collections"
+            href="/explore-more"
             className="typo-grotesk bg-color-bold hover-color-bold text-white px-8 py-3 text-sm transition-colors uppercase shadow-md inline-block no-underline"
           >
             EXPLORE OUR COLLECTIONS
@@ -1287,3 +1287,33 @@ const JewelryShowcase = () => {
 };
 
 export default JewelryShowcase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

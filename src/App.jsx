@@ -15,6 +15,7 @@ import JewelryShowcase from "./Shopbycategory";
 import CustomdesignPage from "./CustomdesignPage";
 import Footer from "./Footer";
 import Profile from "./Profile";
+import ExploreMore from "./ExploreMore";
 function Home() {
   return (
     <>
@@ -52,6 +53,7 @@ function App() {
             <Route path="/profile" element={<Profile/>} />
             <Route path="/necklaces" element={<Necklace />} />
             <Route path="/custom-design" element={<CustomdesignPage />} />
+            <Route path="/explore-more" element={<ExploreMore/>} />
           </Routes>
         </Router>
       </div>

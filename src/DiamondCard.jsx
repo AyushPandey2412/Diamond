@@ -244,11 +244,47 @@
 
 
 
+// import React from 'react';
+
+// const DiamondCard = () => {
+//   return (
+//     <div className="relative w-full max-w-[1300px] h-[300px] sm:h-[400px] lg:h-[550px] rounded-xl overflow-hidden shadow-lg mx-auto my-4 sm:my-6 lg:my-8">
+//       {/* Background Image */}
+//       <img
+//         src="/ChatGPT Image Jun 6, 2025, 01_21_36 PM.png" // Replace with actual image path if needed
+//         alt="Featured"
+//         className="absolute inset-0 w-full h-full object-cover object-center"
+//         // style={{
+//         //   imageRendering: 'crisp-edges',
+//         //   imageRendering: '-webkit-optimize-contrast'
+//         // }}
+//       />
+      
+//       {/* Dark Overlay */}
+//       <div className="absolute inset-0 bg-black/30 z-10" />
+      
+//       {/* Text Content */}
+//       <div className="relative z-20 h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8 text-white">
+//         <h2 className="text-base sm:text-xl lg:text-2xl xl:text-3xl font-serif italic mb-1 sm:mb-2">
+//           Featured collection
+//         </h2>
+//         <p className="text-xs sm:text-sm lg:text-base font-light max-w-md">
+//           Explore the exclusive pieces inspired by the beauty of nature
+//         </p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default DiamondCard;
+
+
+
 import React from 'react';
 
 const DiamondCard = () => {
   return (
-    <div className="relative w-full max-w-[1300px] h-[300px] sm:h-[400px] lg:h-[550px] rounded-xl overflow-hidden shadow-lg mx-auto my-4 sm:my-6 lg:my-8">
+    <div className="relative w-full max-w-[1300px] h-[300px] sm:h-[400px] lg:h-[550px] overflow-hidden shadow-lg mx-auto mt-0.2 mb-7">
       {/* Background Image */}
       <img
         src="/ChatGPT Image Jun 6, 2025, 01_21_36 PM.png" // Replace with actual image path if needed
@@ -263,8 +299,8 @@ const DiamondCard = () => {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/30 z-10" />
       
-      {/* Text Content */}
-      <div className="relative z-20 h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8 text-white">
+      {/* Text Content - Positioned at bottom */}
+      <div className="absolute bottom-0 left-0 right-0 z-20 px-4 sm:px-6 lg:px-8 pb-8 sm:pb-10 lg:pb-16 text-white">
         <h2 className="text-base sm:text-xl lg:text-2xl xl:text-3xl font-serif italic mb-1 sm:mb-2">
           Featured collection
         </h2>
